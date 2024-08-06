@@ -8,9 +8,10 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Repository for the Website Making Challenge, Chat with Los Santos Legends",
   "dependencies": {
     "@google/generative-ai": "^0.16.0",
     "nodemon": "^3.1.4"
-  }
+  },
+  "devDependencies": {}
 }
