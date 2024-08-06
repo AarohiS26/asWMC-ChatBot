@@ -1,0 +1,95 @@
+/* google fonts link */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,300;0,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Popins", sans-serif;
+
+}
+:root{
+    /* dark theme colors    */
+--color-1:  #333333; 
+  --color-2: #FF4500  ;
+  --color-3: #003366;
+  --color-4:  #FF69B4;
+  --color-5:  #F4A460;
+}
+
+.title{
+    
+   
+    text-align: center;
+    border: 5px;
+    font-weight: bold;
+    
+    
+}
+body{
+    background-color: var(--color-1);
+}
+.typing_space{
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: var(--color-4);
+   padding: 1rem;
+   
+}
+.typing_space .chat{
+    height: 56px;
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+
+}
+.typing_space .input{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-3);
+    color: var(--color-5);
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+}
+.typing_space .icon:hover{
+    background-color: var(--color-1) ;
+}
+.typing_space .icon{
+    height: 56px;
+    width: 56px;
+    background-color: var(--color-3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+
+.chat-list{
+    padding: 2rem  1rem 12rem;
+    max-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.chat-list .msgcontent {
+    display: flex;
+    color: var(--color-5);
+   align-items: center;
+   gap: 1.5rem;
+}
+.chat-list .msgcontent .avatar{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.chat-list .msgcontent .msgsent{
+    margin-top: 1.5rem;
+
+}
