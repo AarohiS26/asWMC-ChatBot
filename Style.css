@@ -2,11 +2,13 @@
 
 .row {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     height: 90%;
-    width: 100%;
-    justify-content: space-between;
+    width: 75%;
+    justify-content: center;
     align-items: center;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   .column {
@@ -20,14 +22,18 @@
     border-color: #FF69B4;
     
   }
-  .imagecontainer .a {
-  
-  }
+ 
   .text{
     display: flex;
     justify-content: space-evenly;
     color: #F4A460;
     font-weight: bold;
 
+  }
+  .subtext{
+    display: flex;
+    justify-content: space-evenly;
+    word-wrap: normal;
+    color: #d5a0c4;;
   }
   
